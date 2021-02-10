@@ -1,0 +1,571 @@
+/*
+@font-face {
+     font-family: ;
+     src: url('../font/');
+}
+*/
+
+/*--------------------------load fontes-----------*/
+@font-face {
+    font-family: material;
+    src: url('../font/MaterialIcons-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Caveat', cursive;
+    src: url('../font/Caveat-VariableFont_wght.ttf');
+    
+    
+}
+
+@font-face {
+    font-family: 'Fraunces', serif;
+    src: url('../font/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf');
+    
+    
+}
+
+/*--------------------------formatação geral-----------*/
+
+body{
+    background-size: 100% auto, auto;
+}
+body.cien{
+    background-size: 30% auto, auto;
+    
+}
+body.mat{
+    background-size: 230vh 50vw;
+    
+}
+body.art{
+    background-size: 35% auto, auto;
+    
+}
+body.misto{
+    background-size: 47% auto, auto;
+    
+}
+
+
+.material-icons{
+    font-family: material;
+    background:none;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    display: inline-block;
+
+}
+
+/*--------------------------formatação prontos-----------*/
+
+section.prontos div.format h2{
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Caveat', cursive;
+    margin: 2em 0 0 0;
+    
+}
+section.prontos div button{
+    background:none;
+    border: none;
+    font-size: 3em;
+    margin: 6vh 3vw 5vh 43vw;
+}
+section.prontos p button{
+    background: rgba(255, 255, 255, 0.349);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    padding: 2vh ;
+    font-family: 'Fraunces', serif;
+}
+
+/*--------------------------formatação inicio-----------*/
+
+section.inicio{
+    display: none;
+}
+
+section.segundo{
+    display: none;
+}
+section.terceiro{
+    display: none;
+}
+section.quarto{
+    display: none;
+}
+section.quinto{
+    display: none;
+}
+
+section.sexto{
+    display: none;
+}
+section.setimo{
+display: none;
+}
+
+section.oitavo{
+    display: none;
+}
+section.nono{
+    display: none;
+}
+section.decimo{
+    display: none;
+}
+section.onze{
+    display: none;
+}
+section.doze{
+    display: none;
+}
+section.final{
+    display: none ;
+}
+
+
+section.inicio p{
+    font-size: 7px;
+}
+
+section.inicio table.icones h2{
+    margin: 0 5em 0 0;
+}
+
+section.inicio table.icones button.config{
+    margin: 0 0 0 9em;
+}
+
+section.inicio table.icones button.som{
+    margin: 0 0 0 1vw;
+}
+/*--------*/
+section.segundo p{
+    font-size: 7px;
+}
+
+section.segundo table.icones h2{
+    margin: 0 5em 0 0;
+}
+
+section.segundo table.icones button.config{
+    margin: 0 0 0 9em;
+}
+
+section.segundo table.icones button.som{
+    margin: 0 0 0 1vw;
+}
+
+/*--------*/
+section.terceiro p{
+    font-size: 7px;
+}
+
+section.terceiro table.icones h2{
+    margin: 0 5em 0 0;
+}
+
+section.terceiro table.icones button.config{
+    margin: 0 0 0 9em;
+}
+
+section.terceiro table.icones button.som{
+    margin: 0 0 0 1vw;
+}
+
+/*--------*/
+section.quarto p{
+    font-size: 7px;
+}
+
+section.quarto table.icones h2{
+    margin: 0 5em 0 0;
+}
+
+section.quarto table.icones button.config{
+    margin: 0 0 0 9em;
+}
+
+section.quarto table.icones button.som{
+    margin: 0 0 0 1vw;
+}
+
+/*--------*/
+section.quinto p{
+    font-size: 7px;
+}
+
+section.quinto  table.icones h2{
+    margin: 0 5em 0 0;
+}
+
+section.quinto  table.icones button.config{
+    margin: 0 0 0 9em;
+}
+
+section.quinto  table.icones button.som{
+    margin: 0 0 0 1vw;
+}
+
+/*--------*/
+section.sexto p{
+    font-size: 7px;
+}
+
+section.sexto  table.icones h2{
+    margin: 0 5em 0 0;
+}
+
+section.sexto  table.icones button.config{
+    margin: 0 0 0 9em;
+}
+
+section.sexto  table.icones button.som{
+    margin: 0 0 0 1vw;
+}
+
+/*--------*/
+section.setimo p{
+    font-size: 7px;
+}
+
+section.setimo  table.icones h2{
+    margin: 0 5em 0 0;
+}
+
+section.setimo  table.icones button.config{
+    margin: 0 0 0 9em;
+}
+
+section.setimo  table.icones button.som{
+    margin: 0 0 0 1vw;
+}
+
+/*--------*/
+section.oitavo p{
+    font-size: 7px;
+}
+
+section.oitavo  table.icones h2{
+    margin: 0 5em 0 0;
+}
+
+section.oitavo  table.icones button.config{
+    margin: 0 0 0 9em;
+}
+
+section.oitavo  table.icones button.som{
+    margin: 0 0 0 1vw;
+}
+
+/*--------*/
+section.nono p{
+    font-size: 7px;
+}
+
+section.nono  table.icones h2{
+    margin: 0 5em 0 0;
+}
+
+section.nono  table.icones button.config{
+    margin: 0 0 0 9em;
+}
+
+section.nono  table.icones button.som{
+    margin: 0 0 0 1vw;
+}
+
+/*--------*/
+section.decimo p{
+    font-size: 7px;
+}
+
+section.decimo  table.icones h2{
+    margin: 0 5em 0 0;
+}
+
+section.decimo  table.icones button.config{
+    margin: 0 0 0 9em;
+}
+
+section.decimo  table.icones button.som{
+    margin: 0 0 0 1vw;
+}
+
+/*--------*/
+section.onze p{
+    font-size: 7px;
+}
+
+section.onze  table.icones h2{
+    margin: 0 5em 0 0;
+}
+
+section.onze  table.icones button.config{
+    margin: 0 0 0 9em;
+}
+
+section.onze  table.icones button.som{
+    margin: 0 0 0 1vw;
+}
+
+/*--------*/
+section.doze p{
+    font-size: 7px;
+}
+
+section.doze  table.icones h2{
+    margin: 0 5em 0 0;
+}
+
+section.doze  table.icones button.config{
+    margin: 0 0 0 9em;
+}
+
+section.doze  table.icones button.som{
+    margin: 0 0 0 1vw;
+}
+
+/*--------*/
+
+
+section.final  table.icones button.config{
+    margin: 0 0 0 20em;
+}
+
+section.final  table.icones button.som{
+    margin: 0 0 0 1vw;
+}
+/*------------------------------------formatação campo-----------*/
+
+section div.campo{
+    width: 55vw;
+    height: 75vh;
+    margin: 11vh 0 0 50vh;
+    background-color: rgb(255, 241, 197);
+    
+}
+
+
+    
+section div.espaco{
+    width: 50vw;
+    height: 53vh;
+    margin: 3vh 0 0 5vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+section button.material-icons {
+    font-size: 2em;
+    margin: 0 4vw 2vh 48vw;
+   display: inline; 
+    
+}
+
+
+section h1{
+    font-family: 'Caveat', cursive;
+    font-size: 4em;
+    text-align: center;  
+}
+section h2{
+    font-family: 'Fraunces', serif;
+    font-size: 22px;
+    text-align: center;
+   
+}
+
+
+section ul{
+    display: inline;
+    margin: 1vw 2vh 2vh 2vw;
+}
+
+section li{
+    display: inline-block;
+    margin: 1em 0 0 0.5em;
+
+}
+
+/*--------------------------formatação linhas-----------*/
+hr.geo {
+    width: 53vw;
+	height:5px; 
+	border: none; 
+	background: linear-gradient(to right,#0e9b25, #09e757);
+}
+
+hr.hist {
+    width: 53vw;
+    height:5px; 
+    border: none; 
+    background: linear-gradient(to right,#f0951d ,#fcc204);
+}
+
+hr.mat {
+    width: 53vw;
+    height:5px; 
+    border: none; 
+    background: linear-gradient(to right,#ff1c00 ,#ffa742);
+}
+
+hr.cien {
+    width: 53vw;
+    height:5px; 
+    border: none; 
+    background: linear-gradient(to right,#058997 ,#05dbf2);
+}
+
+hr.art {
+    width: 53vw;
+    height:5px; 
+    border: none; 
+    background: linear-gradient(to right,#f80da6 ,#ff88d1);
+}
+
+hr.port {
+    width: 53vw;
+    height:5px; 
+    border: none; 
+    background: linear-gradient(to right,#f2fa05 ,#98f72c);
+}
+
+hr.misto {
+    width: 53vw;
+    height:5px; 
+    border: none; 
+    background: linear-gradient(to right,#3054f5 ,#7790fd);
+}
+
+/*--------------------------formatação botoes alternativas-----------*/
+
+
+#btn-geo{
+    width: 22vw;
+    height: 8vh;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(#09e757, #0e9b25);
+    font-family: 'Fraunces', serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+#btn-hist{
+    width: 22vw;
+    height: 8vh;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(#fcc204 ,#f0951d );
+    font-family: 'Fraunces', serif;
+    font-size: 12px;
+    color: white
+}
+
+#btn-mat{
+    width: 22vw;
+    height: 8vh;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(#ffa938, #ff1c00);
+    font-family: 'Fraunces', serif;
+    font-size: 12px;
+    color: white
+}
+#btn-cien{
+    width: 22vw;
+    height: 8vh;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(#05dbf2, #1c8c99);
+    font-family: 'Fraunces', serif;
+    font-size: 12px;
+    color: white
+}
+#btn-art{
+    width: 22vw;
+    height: 8vh;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(#ec4fb8, #f2059f);
+    font-family: 'Fraunces', serif;
+    font-size: 12px;
+    color: white
+}
+
+#btn-port{
+    width: 22vw;
+    height: 8vh;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(#98f72c, #f2fa05);
+    font-family: 'Fraunces', serif;
+    font-size: 12px;
+    color: white
+}
+#btn-misto{
+    width: 22vw;
+    height: 8vh;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(#3054f5, #7790fd);
+    font-family: 'Fraunces', serif;
+    font-size: 12px;
+    color: white
+}
+
+/*--------------------------formatação tempo e pontos-----------*/
+
+header{
+    display: flex;
+    margin: 5px;
+    font-size: 1em;
+    color: rgb(2, 2, 2);
+    font-family: 'Fraunces', serif;
+    
+}
+
+section.final h2{
+    margin:8vh 0 4vh 0;
+    font-size: 2em;
+}
+
+section.final button.jogar{
+    background: rgb(219, 219, 219);
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    padding: 2vh ;
+    font-family: 'Fraunces', serif;
+    display: block;
+    margin: 0 5vw 2vh 17vw;
+    text-align: center;
+}
+section.final button.outro{
+    background: rgb(255, 181, 120);
+    border-radius: 15px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    padding: 2vh ;
+    font-family: 'Fraunces', serif;
+    display: block;
+    margin: 0 5vw 2vh 15vw;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+  }
+
+

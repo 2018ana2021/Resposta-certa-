@@ -1,0 +1,316 @@
+/*
+@font-face {
+     font-family: ;
+     src: url('../font/');
+}
+*/
+
+/*--------------------------load fontes-----------*/
+@font-face {
+     font-family: material;
+     src: url('../font/MaterialIcons-Regular.ttf');
+}
+
+@font-face {
+     font-family: 'Caveat', cursive;
+     src: url('../font/Caveat-VariableFont_wght.ttf');
+     
+     
+}
+
+@font-face {
+     font-family: 'Fraunces', serif;
+     src: url('../font/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf');
+     
+     
+}
+
+/*--------------------------formatação geral-----------*/
+
+body{
+     background:  url(../img/fundo3.jpg);
+     background-size: 100% auto, auto;
+}
+
+.material-icons{
+     font-family: material;
+     background:none;
+     border: none;
+     color: rgb(0, 0, 0);
+     font-size: 3em;
+     display: inline-block;
+
+}
+/*--------------------------formatação inicio-----------*/
+
+
+
+section.inicio div.campo{
+     width: 55vw;
+     height: 75vh;
+     margin: 12vh 0 0 50vh;
+     background-color: rgb(255, 255, 255);
+     
+}
+section.inicio table.icones{
+     margin: 0 4vw 0vh 48vw;
+}
+
+section.inicio button.material-icons {
+     font-size: 2em;
+     margin: 0 0 1vh 0;
+     display: inline; 
+     
+}
+
+section.inicio .logo{
+     width: 100vh;
+     position: center;
+     margin: 0 0 0 10vh;
+     
+}
+section.inicio h1{
+     font-family: 'Caveat', cursive;
+     font-size: 4em;
+     text-align: center;  
+}
+
+section.inicio div button{
+     background:none;
+     border: none;
+     color: rgb(0, 0, 0);
+     font-size: 3em;
+     margin: 2vh 3vw 10vh 22vw;
+}
+section.inicio p button{
+     background: rgb(211, 203, 203);
+     border-radius: 15px;
+     color: rgb(0, 0, 0);
+     font-size: 2em;
+     padding: 2vh 2vw;
+     font-family: 'Fraunces', serif;
+}
+
+
+/*--------------------------formatação menu-----------*/
+section.menu{
+     display: none;
+}
+
+section.menu table.icones{
+     margin: 0 4vw 0vh 48vw;
+}
+
+section.menu button.material-icons {
+     font-size: 2em;
+     margin: 0 0 1vh 0;
+     display: inline; 
+     
+}
+section.menu h1{
+     font-family: 'Fraunces', serif;
+     font-size: 2em;
+     margin: 0 0 0 18vw;
+     
+}
+
+a:visited {
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+}
+
+a:hover {
+     color: rgb(0, 0, 0);
+}
+section.menu div.campo{
+     width: 55vw;
+     height: 75vh;
+     margin: 12vh 0 0 50vh;
+     background-color: rgb(255, 255, 255);
+     
+}
+section.menu .table{
+     margin: 0 5vw 0 5vw;
+     background-color: rgb(255, 255, 255);
+     width: 45vw;
+     height: 62vh;
+}
+
+
+
+section.menu ul {
+     display: inline-block;
+     margin: 4vh 4vw 2vh 4vw ;
+     padding: 2vh 0 0 0;
+     border-color: yellow;
+     box-sizing: border-box;
+     width: 180px;
+     height: 100px;
+}
+
+section.menu ul li {
+     margin: 3vh;
+}
+
+section.menu .btn-geografia{
+     background-color: #04d94f;
+     width: 190px;
+     height: 50px;
+     border-radius: 15px;
+     border: none;
+     color:white;
+     font-family: 'Caveat', cursive;
+     font-size: 30px;
+}
+
+section.menu .btn-historia{
+     background-color: #f2b900;
+     width: 190px;
+     height: 50px;
+     border-radius: 15px;
+     border: none;
+     color:white;
+     font-family: 'Caveat', cursive;
+     font-size: 30px;
+}
+
+section.menu .btn-artes{
+     background-color: #f2059f;
+     width: 190px;
+     height: 50px;
+     border-radius: 15px;
+     border: none;
+     color:white;
+     font-family: 'Caveat', cursive;
+     font-size: 30px;
+}
+
+section.menu .btn-matematica{
+     background-color: #ff1c00;
+     width: 190px;
+     height: 50px;
+     border-radius: 15px;
+     border: none;
+     color:white;
+     font-family: 'Caveat', cursive;
+     font-size: 30px;
+}
+
+section.menu .btn-ciencias{
+     background-color: #05dbf2;
+     width: 190px;
+     height: 50px;
+     border-radius: 15px;
+     border: none;
+     color:white;
+     font-family: 'Caveat', cursive;
+     font-size: 30px;
+}
+
+section.menu .btn-portugues{
+     background-color: #f2fa05;
+     width: 190px;
+     height: 50px;
+     border-radius: 15px;
+     border: none;
+     color:white;
+     font-family: 'Caveat', cursive;
+     font-size: 30px;
+}
+section.menu .btn-misto{
+     background-color: #3054f5;
+     width: 170px;
+     height: 50px;
+     border-radius: 15px;
+     border: none;
+     margin: 0 4vw 0 9vw;
+     color:white;
+     font-family: 'Caveat', cursive;
+     font-size: 30px;
+}
+
+
+
+/*--------------------------formatação jogo-----------*/
+section.jogo{
+     display: none;
+}
+
+section.jogo{
+     width: 90vw;
+     margin: 5vh auto 0 auto;
+}
+
+section.jogo header{
+     display: flex;
+     justify-content: space-between;
+     font-size: 2em;
+     color: rgb(255, 208, 0);
+     font-family: harry;
+}
+
+section.jogo div.campo{
+     width: 90vw;
+     height: 80vh;
+     margin: 5vh 0 0 0;
+     background-color: aliceblue;
+     background-size: 100% auto;
+     border: 4px solid rgb(0, 0, 0);
+}
+
+section.jogo div.pomo{
+     width: 50px;
+     height: 42px;
+     background: url(../img/pomo.gif);
+     background-size: 100%;
+     position: relative;
+}
+
+section.jogo div.pomo span{
+     display: block;
+     width: 50%;
+     height: 60%;
+     border-radius: 50%;
+     margin: 32% auto 0 auto;
+}
+
+/*--------------------------formatação pontuação-----------*/
+
+section.pontuacao{
+     display:none;
+}
+
+section.pontuacao h1{
+     color: white;
+     font-size: 60px;
+     text-align:center;
+     font-family: harry;
+     margin: 13px 0 13px 0;
+
+}
+section.pontuacao p{
+     color: white;
+     font-size: 30px;
+     text-align:center;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     margin: 7px 0 7px 0;
+
+
+}
+section.pontuacao div.card{
+     width: 90vw;
+     height: 50vh;
+     margin: 5vh 50vw 25vh 35vw;
+     background-size: 100% auto;
+     text-align:center;
+    
+}
+
+section.pontuacao button{
+     background: linear-gradient(to top, #fa9004, #f0cd5c);
+     border: none;
+     color: white;
+     font-size: 2em;
+     padding: 2vh 2vw;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
